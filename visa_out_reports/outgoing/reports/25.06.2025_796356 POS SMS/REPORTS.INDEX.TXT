@@ -1,0 +1,43 @@
+<rptindex>
+<report id="100A" title="VALIDATION EXCEPTION DETAIL REPORT" len="38" sline="1" file="EP100A"/>
+<report id="100B" title="VALIDATION EXCEPTION SUMMARY BY ACQ/ISS ID" len="38" sline="1" file="EP100B"/>
+<report id="100C" title="VALIDATION EXCEPTION SUMMARY BY CENTER" len="38" sline="1" file="EP100C"/>
+<report id="110B" title="OUTGOING INTERCHANGE BATCH SUMMARY" len="19" sline="1" file="EP110B"/>
+<report id="110C" title="OUTGOING INTERCHANGE FILE SUMMARY" len="20" sline="1" file="EP110C"/>
+<report id="110E" title="OUTGOING INTERCHANGE RUN SUMMARY" len="20" sline="1" file="EP110E"/>
+<report id="110F" title="OUTGOING INTERCHANGE SUMMARY" len="15" sline="1" file="EP110F"/>
+<report id="111C" title="FILE SUMMARY BY CURRENCY CODE" len="16" sline="1" file="EP111C"/>
+<report id="111E" title="RUN SUMMARY BY CURRENCY CODE" len="18" sline="1" file="EP111E"/>
+<report id="120F" title="OUTGOING ITF SUMMARY BY VOLUME" len="18" sline="1" file="EP120F"/>
+<report id="199" title="PROCESSING LOG" len="529" sline="1" file="EP199"/>
+<report id="705" title="SALES DRAFTS" len="24" sline="1" file="EP705"/>
+<report id="706" title="CREDIT VOUCHERS" len="24" sline="1" file="EP706"/>
+<report id="707" title="CASH DISBURSEMENTS" len="24" sline="1" file="EP707"/>
+<report id="710" title="FEE COLLECTIONS" len="24" sline="1" file="EP710"/>
+<report id="715" title="SALES DRAFT CHARGEBACKS" len="24" sline="1" file="EP715"/>
+<report id="716" title="CREDIT VOUCHER CHARGEBACKS" len="24" sline="1" file="EP716"/>
+<report id="717" title="CASH DISBURSEMENT CHARGEBACKS" len="24" sline="1" file="EP717"/>
+<report id="720" title="FUNDS DISBURSEMENT" len="24" sline="1" file="EP720"/>
+<report id="725" title="SALES DRAFT REVERSALS" len="154" sline="1" file="EP725"/>
+<report id="726" title="CREDIT VOUCHER REVERSALS" len="24" sline="1" file="EP726"/>
+<report id="727" title="CASH DISBURSEMENT REVERSALS" len="24" sline="1" file="EP727"/>
+<report id="730" title="ICS PROCESSING" len="24" sline="1" file="EP730"/>
+<report id="732" title="NATIONAL MERCHANT ALERT SERVICE" len="24" sline="1" file="EP732"/>
+<report id="735" title="SALES DRAFT CHARGEBACK REVERSALS" len="24" sline="1" file="EP735"/>
+<report id="736" title="CREDIT VOUCHER CHARGEBACK REVERSALS" len="24" sline="1" file="EP736"/>
+<report id="737" title="CASH DISBURSEMENT CHARGEBACK REVERSALS" len="24" sline="1" file="EP737"/>
+<report id="738" title="VISANET COPY REQUEST AND FULFILLMENT SERVICE MESSAGE" len="24" sline="1" file="EP738"/>
+<report id="739" title="UNFORMATTED TRANSACTION-BASED REPORT" len="24" sline="1" file="EP739"/>
+<report id="740" title="FRAUD ADVICE" len="24" sline="1" file="EP740"/>
+<report id="750" title="TEXT MESSAGES" len="24" sline="1" file="EP750"/>
+<report id="752" title="REQUESTS FOR COPY" len="24" sline="1" file="EP752"/>
+<report id="755" title="REGIONAL CARD RECOVERY FILE RECORDS - RCRF MESSAGE" len="24" sline="1" file="EP755"/>
+<report id="756" title="CURRENCY CONVERSION RATES" len="24" sline="1" file="EP756"/>
+<report id="757" title="DATA CAPTURE TRANSACTION ADVICE" len="24" sline="1" file="EP757"/>
+<report id="758" title="NATIONAL SETTLEMENT ADVICES" len="24" sline="1" file="EP758"/>
+<report id="759" title="INTERFACE TRANSACTION ADVICE" len="24" sline="1" file="EP759"/>
+<report id="790" title="UNFORMATTED TRANSACTION-BASED REPORT" len="8" sline="1" file="EP790"/>
+<report id="791" title="UNFORMATTED TRANSACTION-BASED REPORT" len="8" sline="1" file="EP791"/>
+<report id="792" title="UNFORMATTED TRANSACTION-BASED REPORT" len="8" sline="1" file="EP792"/>
+<report id="999" title="INDEX OF REPORTS" len="52" sline="1" file="EP999"/>
+</rptindex>

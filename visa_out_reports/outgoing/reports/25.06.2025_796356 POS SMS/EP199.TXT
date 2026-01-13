@@ -1,0 +1,529 @@
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ Editpk40-0802I Running As Job......... EPOUT (Job ID: JOB0000)                                                                      
+                Starting on............ 2025/06/25  at 15:54                                                                         
+                Local Start............ 2025/06/25 18:54:59                                                                          
+                Program Compiled....... Jan 14 2025 at 21:10:25  Version 4.0 Program CEpzos                                          
+                Platform Version.Build. V4.01.B0033                                                                                  
+                User Identifier........ EditPackage4                                                                                 
+                Operating System....... Microsoft WIN32 6.2.9200                                                                     
+ 2025-06-25 15:55:02 100061-I CODEBASE table effective date  20250301                                                                
+                              CODEBASE table highest version 1050                                                                    
+ 2025-06-25 15:55:02 100061-I valuetbl table effective date  20250626                                                                
+                              valuetbl table highest version 5030                                                                    
+ 2025-06-25 15:55:02 100061-I profile table effective date  20101217                                                                 
+                              profile table highest version 1001                                                                     
+ 2025-06-25 15:55:02 100061-I BINTBL table effective date  20250625                                                                  
+                              BINTBL table highest version 6443                                                                      
+ 2025-06-25 15:55:02 100061-I ACTRNG table effective date  20250625                                                                  
+                              ACTRNG table highest version 6443                                                                      
+ 2025-06-25 15:55:02 100061-I reposdef table effective date  20241018                                                                
+                              reposdef table highest version 1034                                                                    
+ 2025-06-25 15:55:02 100064-I Tables effective as of   20250625                                                                      
+ 2025-06-25 15:55:02 000093-C Profile outgoingtc active using table date 2025-06-25                                                  
+ 2025-06-25 15:55:02 000215-I Run reporting mode Edit-Create (file sequence F)                                                       
+ 2025-06-25 15:55:03 000005-I ephist version 1.1 loaded                                                                              
+ 2025-06-25 15:55:03 000005-I eprepository version 1.1 loaded                                                                        
+ 2025-06-25 15:55:03 000005-I zosep version 1.1 loaded                                                                               
+ 2025-06-25 15:55:03 000101-I DLL epfm022.dll loaded as logical epfilemgr                                                            
+ 2025-06-25 15:55:03 000003-I File pattern dd:EPIN associated with FILELOC                                                           
+ 2025-06-25 15:55:03 000230-I Memory Pool BatchTran primary alloc: 4096000 bytes; secondary alloc: 2048000 bytes                     
+ 2025-06-25 15:55:03 100010-I                                                                                                        
+                              The following profile and temporary options                                                            
+                              are in effect for this run                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:     autoupdt = Y                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:  blktrnidtol = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     centrbin = 440755                                                                          
+ 2025-06-25 15:55:03 000089-I Runopt:    centrcode = KCB CARD                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:   dateformat = YYMMDD                                                                          
+ 2025-06-25 15:55:03 000089-I Runopt:    direction = OUTGOING                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:     dupbatch = E,HASH    ,5                                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:        epver = 4.1.33.0                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:   excprptfmt = DUMP                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   excprptseq = FILE                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:     filetype = UNDIF                                                                           
+ 2025-06-25 15:55:03 000089-I Runopt:   fposttoler = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    histpurge = IN                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:    histretpd = 10                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:   maxbatrecs = 1500                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   maxoutrecs = 18700000                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:      profile = OUTGOINGTC                                                                      
+ 2025-06-25 15:55:03 000089-I Runopt:    rejitflim = 100                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:    rejmsglim = 100                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:      reports = AR(5) EP100 EP110 EP111 EP120                                                   
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      2
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000089-I Runopt:      runmode = PROD                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   savereject = T                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   tranrptseq = FILE                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:     valerror = 10                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:     validate = Y                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:      dllname = BLD(EPBUILDTC) PRS(EPARSETC)                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:    fileidmod =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      fileout = ITF                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:   sourcename =                                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 1) = 0102                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 2) = 0103                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 3) = 1000                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 4) = 1001                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 5) = 1002                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 6) = 1004                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 7) = 1005                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 8) = 1010                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 9) = 1011                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 10) = 1014                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 11) = 1015                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 12) = 1020                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 13) = 1021                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 14) = 1022                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 15) = 1024                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 16) = 1025                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 17) = 1030                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 18) = 1031                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 19) = 1034                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 20) = 1035                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 21) = 1500                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 22) = 1501                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 23) = 1504                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 24) = 1505                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 25) = 1510                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 26) = 1511                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 27) = 1514                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 28) = 1515                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 29) = 1520                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 30) = 1521                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 31) = 1524                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 32) = 1525                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 33) = 1530                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 34) = 1531                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 35) = 1534                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 36) = 1535                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 37) = 2000                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 38) = 2001                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 39) = 2002                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 40) = 2004                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 41) = 2005                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 42) = 2006                                                                 
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      3
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 43) = 2007                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 44) = 2008                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 45) = 2009                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 46) = 2010                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 47) = 2011                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 48) = 2014                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 49) = 2015                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 50) = 2016                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 51) = 2018                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 52) = 2019                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 53) = 2020                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 54) = 2021                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 55) = 2022                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 56) = 2024                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 57) = 2025                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 58) = 2026                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 59) = 2028                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 60) = 2029                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 61) = 2030                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 62) = 2031                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 63) = 2034                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 64) = 2035                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 65) = 2036                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 66) = 2038                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 67) = 2039                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 68) = 2500                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 69) = 2501                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 70) = 2504                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 71) = 2505                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 72) = 2510                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 73) = 2511                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 74) = 2514                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 75) = 2515                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 76) = 2520                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 77) = 2521                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 78) = 2524                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 79) = 2525                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 80) = 2530                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 81) = 2531                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 82) = 2534                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 83) = 2535                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 84) = 3000                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 85) = 3001                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 86) = 3004                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 87) = 3005                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 88) = 3010                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 89) = 3011                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 90) = 3014                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 91) = 3015                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 92) = 3020                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 93) = 3021                                                                 
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      4
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 94) = 3024                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 95) = 3025                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 96) = 3030                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 97) = 3031                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 98) = 3034                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 99) = 3035                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 100) = 3403                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 101) = 5000                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 102) = 5001                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 103) = 5002                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 104) = 5005                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 105) = 5010                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 106) = 5011                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 107) = 5012                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 108) = 5015                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 109) = 5030                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 110) = 5032                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 111) = 5040                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 112) = 5050                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 113) = 5051                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 114) = 5052                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 115) = 5053                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 116) = 5055                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 117) = 5056                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 118) = 5057                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 119) = 5058                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 120) = 5062                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 121) = 7000                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 122) = 7001                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 123) = 7002                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 124) = 7003                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 125) = 7010                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 126) = 7011                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 127) = 7012                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 128) = 7013                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 129) = 7030                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 130) = 7060                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 131) = 7070                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 132) = 8010                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 133) = 8020                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 134) = 8030                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 135) = 8040                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 136) = 9001                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 137) = 9005                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 138) = 9010                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 139) = 9014                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 140) = 9021                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 141) = 9025                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 142) = 9030                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 143) = 9034                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 144) = 9100                                                                
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      5
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 145) = 9201                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 146) = 9206                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 147) = 9208                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 148) = 9210                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 149) = 9214                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 150) = 9215                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 151) = 9219                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 152) = 9221                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 153) = 9226                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 154) = 9228                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 155) = 9230                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 156) = 9234                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 157) = 9235                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 158) = 9239                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 159) = 9301                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 160) = 9305                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 161) = 9310                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 162) = 9314                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 163) = 9321                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 164) = 9325                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 165) = 9330                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 166) = 9334                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 167) = 9501                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 168) = 9505                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 169) = 9510                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 170) = 9514                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 171) = 9521                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 172) = 9525                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 173) = 9530                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 174) = 9534                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 175) = 9601                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 176) = 9605                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 177) = 9610                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 178) = 9614                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 179) = 9621                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 180) = 9625                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 181) = 9630                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 182) = 9634                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 183) = 9830                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 184) = 9855                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 185) = 9901                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 186) = 9902                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 187) = 9903                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 188) = 9904                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 189) = 9905                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 190) = 9906                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 191) = 9907                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 192) = 9908                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 193) = 9909                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 194) = 9910                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 195) = 9911                                                                
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      6
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 196) = 9912                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 197) = 9913                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 198) = 9914                                                                
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 199) = 9915                                                                
+ 2025-06-25 15:55:03 000089-I Runopt:      datesep = /                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:      timesep = :                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    numdecsep = .                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   numthousep = ,                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    centrname = KENYA COMMERCIAL BANK                                                           
+ 2025-06-25 15:55:03 000089-I Runopt:      fileloc = dd:EPIN                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:      rundate = 20250625                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:    tabledate = 20250625                                                                        
+ 2025-06-25 15:55:03 100011-I                                                                                                        
+                              The following options are in                                                                           
+                              effect for this run                                                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:     autoupdt = Y                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt: blktrncuramt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:  blktrnidtol = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    centrcode = KCB CARD                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:    centrname = KENYA COMMERCIAL BANK                                                           
+ 2025-06-25 15:55:03 000089-I Runopt:      charset =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      country = US                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:   dateformat = YYMMDD                                                                          
+ 2025-06-25 15:55:03 000089-I Runopt:      datesep = /                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     destname = BANKCARD                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:    direction = OUTGOING                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:      dllname = BLD(EPBUILDTC) PRS(EPARSETC)                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:      dllparm =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     dupbatch = E,HASH    ,5                                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:      duptran = NNN                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:        epver = 4.1.33.0                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:   excprptfmt = DUMP                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   excprptseq = FILE                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   extensions =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   extprocess =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      extract =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:    feerptfmt = S                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    fileidmod =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      fileloc = dd:EPIN                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:      fileout = ITF                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:     filetype = UNDIF                                                                           
+ 2025-06-25 15:55:03 000089-I Runopt:  fpostcuramt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   fposttoler = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    histpurge = IN                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:    histretpd = 10                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:     inputseq =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     internal =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   itemcuramt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:    itemtoler = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     itfblock = 12                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:      itfhash = N                                                                               
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      7
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000089-I Runopt:         lang = ENGLISH                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:       locale =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   maxbatrecs = 1500                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:   maxoutrecs = 18700000                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:    maxthread = 6                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     membtchp = 4096000                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:     membtchs = 2048000                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:      memsize = 5000000                                                                         
+ 2025-06-25 15:55:03 000089-I Runopt:      message =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     netagent = 0                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    numdecsep = .                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   numthousep = ,                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:      offrel1 = 00000000                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:      offrel2 = 00000000                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:   outcharset =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:         port = 49990                                                                           
+ 2025-06-25 15:55:03 000089-I Runopt:      profile = OUTGOINGTC                                                                      
+ 2025-06-25 15:55:03 000089-I Runopt:    rejitflim = 100                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:    rejmsglim = 100                                                                             
+ 2025-06-25 15:55:03 000089-I Runopt:      reports = AR(5) EP100 EP110 EP111 EP120                                                   
+ 2025-06-25 15:55:03 000089-I Runopt:        rerun = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    runcuravg =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      rundate = 20250625                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:     rundate1 = 00000000                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:      runmode = PROD                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:       runnum = 11                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:     runtoler = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   savereject = T                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   savereturn = R                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     shutdown = ONPARSEEND                                                                      
+ 2025-06-25 15:55:03 000089-I Runopt:   sourcename =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   splitbyard =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   splitbybin =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   splitbypid =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   splitbyset =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:    splitbytc =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:    splitbytt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   splitconly = Y,CONLY,BCACO                                                                   
+ 2025-06-25 15:55:03 000089-I Runopt:   splitinfil =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:        start = ONINIT                                                                          
+ 2025-06-25 15:55:03 000089-I Runopt:       stoprc = 8                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:    tabledate = 20250625                                                                        
+ 2025-06-25 15:55:03 000089-I Runopt:      tbldata =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:       tblkey =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:         tcin =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:      tcinprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:    tcnoinprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   tcnooutprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     tcnopass =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     tcoutprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:       tcpass =                                                                                 
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      8
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000089-I Runopt:      timesep = :                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   tranrptseq = FILE                                                                            
+ 2025-06-25 15:55:03 000089-I Runopt:     trialrun = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:     trninprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   trnnoinprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   trnooutprt =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     trnopass =                                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 1) = 0102                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 2) = 0103                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 3) = 1000                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 4) = 1001                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 5) = 1002                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 6) = 1004                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 7) = 1005                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 8) = 1010                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 9) = 1011                                                                  
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 10) = 1014                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 11) = 1015                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 12) = 1020                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 13) = 1021                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 14) = 1022                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 15) = 1024                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 16) = 1025                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 17) = 1030                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 18) = 1031                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 19) = 1034                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 20) = 1035                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 21) = 1500                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 22) = 1501                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 23) = 1504                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 24) = 1505                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 25) = 1510                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 26) = 1511                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 27) = 1514                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 28) = 1515                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 29) = 1520                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 30) = 1521                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 31) = 1524                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 32) = 1525                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 33) = 1530                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 34) = 1531                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 35) = 1534                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 36) = 1535                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 37) = 2000                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 38) = 2001                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 39) = 2002                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 40) = 2004                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 41) = 2005                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 42) = 2006                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 43) = 2007                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 44) = 2008                                                                 
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      9
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 45) = 2009                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 46) = 2010                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 47) = 2011                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 48) = 2014                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 49) = 2015                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 50) = 2016                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 51) = 2018                                                                 
+ 2025-06-25 15:55:03 000140-I Runopt:    trnoutprt (Entry 52) = 2                                                                    
+ 2025-06-25 15:55:03 000089-I Runopt:      trnpass =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:     valerror = 10                                                                              
+ 2025-06-25 15:55:03 000089-I Runopt:     validate = Y                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:      workdir =                                                                                 
+ 2025-06-25 15:55:03 000089-I Runopt:   writeheadr = N                                                                               
+ 2025-06-25 15:55:03 000089-I Runopt:   xxxencrypt =                                                                                 
+ 2025-06-25 15:55:03 000102-I Language files for English_United States.1252 (lang suffix=en_us) active                               
+ 2025-06-25 15:55:03 000118-I Validation service repository load size:  63,579,380                                                   
+ 2025-06-25 15:55:03 000135-C Run date set to 2025-06-25, Run number 11                                                              
+ 2025-06-25 15:55:03 000028-I Thread epvalidate activated                                                                            
+ 2025-06-25 15:55:04 000101-I DLL epctfp35.dll loaded as logical eparsetc                                                            
+ 2025-06-25 15:55:04 000005-I eparsetc version 1.1 loaded                                                                            
+ 2025-06-25 15:55:04 000000-I EP Parser thread activated                                                                             
+ 2025-06-25 15:55:05 000101-I DLL eprul042.dll loaded as logical eprule                                                              
+ 2025-06-25 15:55:05 000101-I DLL epgen015.dll loaded as logical epgenc                                                              
+ 2025-06-25 15:55:05 000005-I epgenc version 1.2 loaded                                                                              
+ 2025-06-25 15:55:05 000005-I CAS Rules version 1.2 loaded                                                                           
+ 2025-06-25 15:55:05 000157-I Output file format set to ITF                                                                          
+ 2025-06-25 15:55:05 000101-I DLL epctfb35.dll loaded as logical epbuildtc                                                           
+ 2025-06-25 15:55:05 000094-I epbuildtc loaded as builder version 1.1                                                                
+ 2025-06-25 15:55:05 000101-I DLL eprpt034.dll loaded as logical epreport                                                            
+ 2025-06-25 15:55:05 000114-I epreport loaded as reports version 1.1                                                                 
+ 2025-06-25 15:55:05 000005-I eprpt01 version 1.1 loaded                                                                             
+ 2025-06-25 15:55:05 000007-I Active thread count 1                                                                                  
+ 2025-06-25 15:55:05 000097-I Waiting for epvalidate (thread 1) to end                                                               
+ 2025-06-25 15:55:05 000054-I Thread initialization messages sent                                                                    
+ 2025-06-25 15:55:05 000065-I epfilemgr loaded by epvalidate (Thread 1)                                                              
+ 2025-06-25 15:55:05 000005-I epfm001 version 1.1 loaded                                                                             
+ 2025-06-25 15:55:05 000081-C File EPIN open for input                                                                               
+ 2025-06-25 15:55:05 000035-I Dataset E:\EP40\C440755\OUTGOING\000000000000796356                                                    
+ 2025-06-25 15:55:05 000032-I File dd:EPOUT open for output                                                                          
+ 2025-06-25 15:55:05 000048-I File 1 associated with file-id 000                                                                     
+ 2025-06-25 15:55:05 000067-C builder  Batch 000001 transaction count           5                                                    
+ 2025-06-25 15:55:05 000068-I Thread epvalidate thread terminating                                                                   
+ 2025-06-25 15:55:05 000076-C File dd:EPIN set to source status COMPLETED                                                            
+ 2025-06-25 15:55:05 100099-I                                                                                                        
+                              Total transactions for this run = 5                                                                    
+ 2025-06-25 15:55:05 100098-I                                                                                                        
+ 2025-06-25 15:55:05 000068-I Thread epvalidate thread terminating                                                                   
+ 2025-06-25 15:55:05 000153-C Report build process starting                                                                          
+ 2025-06-25 15:55:05 000223-I Archive created: e:\ep40\\\c440755\reports\outgoing\d250625_r11_t155505_prod                           
+ 2025-06-25 15:55:05 000154-C Report build process complete                                                                          
+ 2025-06-25 15:55:05 000068-I Thread epvalidate thread terminating                                                                   
+REPORT EP-199   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     10
+ SYSTEM DATE 25/06/25    RELEASE  4.00                      PROCESSING LOG                                  E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+                                                                                                                                     
+ 2025-06-25 15:55:05 000030-I Thread epvalidate deactivated                                                                          
+ 2025-06-25 15:55:05 000098-I epvalidate (thread 1) end signal received                                                              
+ 2025-06-25 15:55:05 000231-I Memory Pool BatchTran total used memory 4096000 bytes                                                  
+ 2025-06-25 15:55:05 000000-I Edit Package 4.0 Statistics                                                                            
+ 2025-06-25 15:55:05 000000-I        Category                       Count                                                            
+ 2025-06-25 15:55:05 000000-I ----------------------------   ------------                                                            
+ 2025-06-25 15:55:05 000000-I Execution Resources                                                                                    
+ 2025-06-25 15:55:05 000000-I     Elapsed time..............            6                                                            
+ 2025-06-25 15:55:05 000000-I     Program CPU Seconds.......         2.78                                                            
+ 2025-06-25 15:55:05 000000-I     System CPU Seconds........         0.84                                                            
+ 2025-06-25 15:55:05 000000-I     Memory in use.............  137,064,448                                                            
+ 2025-06-25 15:55:05 000000-I     Return Code...............            0                                                            
+ 2025-06-25 15:55:05 000000-I Counts                                                                                                 
+ 2025-06-25 15:55:05 000000-I     Batches...................            1                                                            
+ 2025-06-25 15:55:05 000000-I     Transactions..............            5                                                            
+ 2025-06-25 15:55:05 000000-I     Error Transactions........            0                                                            
+ 2025-06-25 15:55:05 000024-C Edit Package Validation terminating: 2025-06-25 at 15:55:05 GMT                                        
+ 2025-06-25 15:55:05 000079-C Application termination in progress Run duration 00:00:06 (hh:mm:ss),                                  
+ 2025-06-25 15:55:05 100097-I                                                                                                        
+                              Run ended with return code = 0                                                                         

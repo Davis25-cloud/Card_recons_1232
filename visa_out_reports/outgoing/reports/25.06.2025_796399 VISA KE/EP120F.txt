@@ -1,0 +1,18 @@
+REPORT EP-120F  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00              OUTGOING ITF SUMMARY BY VOLUME                          E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755 TO VIC                                        RUN NO    013
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                         ----------------------------------------  ACCEPTED  ----------------------------------------                
+                         FINANCIAL                  FINANCIAL   NON-FINANCIAL     TOTAL TRAN      BATCH        RECORD                
+                             COUNT                     AMOUNT           COUNT          COUNT      COUNT         COUNT                
+                                                                                                                                     
+                                                                                                                                     
+ E/P FILE ID :   440755020250625P130100                                                                                              
+                                                                                                                                     
+                                                                                                                                     
+         FILE    1            12                    2,752.70             194            206          2           242                 
+                                                                                                                                     
+                                                                                                                                     
+         RUN    13            12                    2,752.70             194            206          2           242                 

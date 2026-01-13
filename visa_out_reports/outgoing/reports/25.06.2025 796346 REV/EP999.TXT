@@ -1,0 +1,52 @@
+REPORT EP-999   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00                     INDEX OF REPORTS                                 E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    010
+                                                                                                                                     
+                                                                                                                                     
+           REPORT NO.   TITLE                                                                               NO OF PAGES              
+           OUTGOING INTERCHANGE CONTROL REPORTS                                                                                      
+             EP-100A    VALIDATION EXCEPTION DETAIL REPORT                                                           1  NULL         
+             EP-100B    VALIDATION EXCEPTION SUMMARY BY ACQ/ISS ID                                                   1  NULL         
+             EP-100C    VALIDATION EXCEPTION SUMMARY BY CENTER                                                       1  NULL         
+             EP-110B    OUTGOING INTERCHANGE BATCH SUMMARY                                                           1               
+             EP-110C    OUTGOING INTERCHANGE FILE SUMMARY                                                            1               
+             EP-110E    OUTGOING INTERCHANGE RUN SUMMARY                                                             1               
+             EP-110F    OUTGOING INTERCHANGE SUMMARY                                                                 1               
+             EP-111C    FILE SUMMARY BY CURRENCY CODE                                                                1               
+             EP-111E    RUN SUMMARY BY CURRENCY CODE                                                                 1               
+             EP-120F    OUTGOING ITF SUMMARY BY VOLUME                                                               1               
+                                                                                                                                     
+           PROCESS CONTROL REPORTS                                                                                                   
+             EP-199     PROCESSING LOG                                                                              10               
+                                                                                                                                     
+                                                                                                                                     
+           OPTIONAL TRANSACTION REPORTS REQUESTED THIS RUN                                                                           
+             EP-705     SALES DRAFTS                                                                                 1  NULL         
+             EP-706     CREDIT VOUCHERS                                                                              1  NULL         
+             EP-707     CASH DISBURSEMENTS                                                                           1  NULL         
+             EP-710     FEE COLLECTIONS                                                                              1  NULL         
+             EP-715     SALES DRAFT CHARGEBACKS                                                                      1  NULL         
+             EP-716     CREDIT VOUCHER CHARGEBACKS                                                                   1  NULL         
+             EP-717     CASH DISBURSEMENT CHARGEBACKS                                                                1  NULL         
+             EP-720     FUNDS DISBURSEMENT                                                                           1  NULL         
+             EP-725     SALES DRAFT REVERSALS                                                                        1               
+             EP-726     CREDIT VOUCHER REVERSALS                                                                     1  NULL         
+             EP-727     CASH DISBURSEMENT REVERSALS                                                                  1  NULL         
+             EP-730     ICS PROCESSING                                                                               1  NULL         
+             EP-732     NATIONAL MERCHANT ALERT SERVICE                                                              1  NULL         
+             EP-735     SALES DRAFT CHARGEBACK REVERSALS                                                             1  NULL         
+             EP-736     CREDIT VOUCHER CHARGEBACK REVERSALS                                                          1  NULL         
+             EP-737     CASH DISBURSEMENT CHARGEBACK REVERSALS                                                       1  NULL         
+             EP-738     VISANET COPY REQUEST AND FULFILLMENT SERVICE MESSAGE                                         1  NULL         
+             EP-739     UNFORMATTED TRANSACTION-BASED REPORT                                                         1  NULL         
+             EP-740     FRAUD ADVICE                                                                                 1  NULL         
+             EP-750     TEXT MESSAGES                                                                                1  NULL         
+             EP-752     REQUESTS FOR COPY                                                                            1  NULL         
+             EP-755     REGIONAL CARD RECOVERY FILE RECORDS - RCRF MESSAGE                                           1  NULL         
+             EP-756     CURRENCY CONVERSION RATES                                                                    1  NULL         
+             EP-757     DATA CAPTURE TRANSACTION ADVICE                                                              1  NULL         
+             EP-758     NATIONAL SETTLEMENT ADVICES                                                                  1  NULL         
+             EP-759     INTERFACE TRANSACTION ADVICE                                                                 1  NULL         
+             EP-790     UNFORMATTED TRANSACTION-BASED REPORT                                                         1  NULL         
+             EP-791     UNFORMATTED TRANSACTION-BASED REPORT                                                         1               
+             EP-792     UNFORMATTED TRANSACTION-BASED REPORT                                                         1               

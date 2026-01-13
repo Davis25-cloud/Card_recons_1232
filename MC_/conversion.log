@@ -1,0 +1,137 @@
+2026-01-06 12:18:58,882 INFO Configured paths: LOE_PATH=E:\Automation - Copy\Card_recon\original reports\LOE20250219.xlsx OUTGOING_PATH=E:\Automation - Copy\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx REPORT_DIR=E:\Automation - Copy\Card_recon\MC_\mc_reports LOG_FILE=e:\Automation - Copy\Card_recon\MC_\conversion.log
+2026-01-06 12:19:10,373 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 12:19:19,354 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 12:19:25,215 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 12:19:33,432 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 12:19:35,973 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 12:19:35,990 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 12:19:36,395 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 12:19:36,722 INFO Saved E:\Automation - Copy\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 12:19:36,722 INFO Export results:
+2026-01-06 12:19:36,723 INFO  filter_loe: E:\Automation - Copy\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 12:19:36,723 INFO  filter_outgoing: E:\Automation - Copy\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 12:19:36,723 INFO  matched_loe: E:\Automation - Copy\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 12:19:36,723 INFO  All_out: E:\Automation - Copy\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 12:19:36,723 INFO  investigation_report: E:\Automation - Copy\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 12:19:36,723 INFO  analytics_summary: E:\Automation - Copy\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 12:19:36,723 INFO  duplicates_loe: E:\Automation - Copy\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 12:19:36,723 INFO  duplicates_out: E:\Automation - Copy\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:00:01,058 INFO Configured paths: LOE_PATH=E:\Automation - Copy\Card_recon\original reports\LOE20250219.xlsx OUTGOING_PATH=E:\Automation - Copy\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx REPORT_DIR=E:\Automation - Copy\Card_recon\MC_\mc_reports LOG_FILE=e:\Automation - Copy\Card_recon\MC_\conversion.log
+2026-01-06 13:01:08,514 INFO LOE file read: E:\Automation - Copy\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:01:37,945 INFO Outgoing file read: E:\Automation - Copy\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:01:37,946 ERROR Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']
+2026-01-06 13:01:37,946 ERROR LOE column validation failed
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_6492\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:01:37,947 ERROR Error reading input files
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_6492\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:03:51,151 INFO LOE file read: E:\Automation - Copy\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:04:21,206 INFO Outgoing file read: E:\Automation - Copy\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:04:21,207 ERROR Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']
+2026-01-06 13:04:21,207 ERROR LOE column validation failed
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_6492\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:04:21,208 ERROR Error reading input files
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_6492\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:15:29,733 INFO Configured paths: LOE_PATH=E:\Automation\Card_recon\original reports\LOE20250219.xlsx OUTGOING_PATH=E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx REPORT_DIR=E:\Automation\Card_recon\MC_\mc_reports LOG_FILE=e:\Automation\Card_recon\MC_\conversion.log
+2026-01-06 13:16:35,430 INFO LOE file read: E:\Automation\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:17:07,522 INFO Outgoing file read: E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:17:07,523 ERROR Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']
+2026-01-06 13:17:07,523 ERROR LOE column validation failed
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_8772\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:17:07,524 ERROR Error reading input files
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_8772\474582762.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:22:11,881 INFO LOE file read: E:\Automation\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:22:47,182 INFO Outgoing file read: E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:22:47,182 ERROR Missing LOE columns: ['Date', 'DocNo', 'Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']
+2026-01-06 13:22:47,183 ERROR LOE column validation failed
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_8772\1763208640.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Date', 'DocNo', 'Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:22:47,183 ERROR Error reading input files
+Traceback (most recent call last):
+  File "C:\Users\Davis\AppData\Local\Temp\ipykernel_8772\1763208640.py", line 28, in <module>
+    raise KeyError(f'Missing LOE columns: {validate_cols_missing}')
+KeyError: "Missing LOE columns: ['Date', 'DocNo', 'Debit External', 'Credit External', 'PAN', 'Debit Amount', 'Entry Identifier']"
+2026-01-06 13:25:30,217 INFO Configured paths: LOE_PATH=E:\Automation\Card_recon\original reports\LOE20250219.xlsx OUTGOING_PATH=E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx REPORT_DIR=E:\Automation\Card_recon\MC_\mc_reports LOG_FILE=e:\Automation\Card_recon\MC_\conversion.log
+2026-01-06 13:27:57,400 INFO LOE detected sheet "LOE20250219" header row 0
+2026-01-06 13:27:57,440 INFO LOE file read: E:\Automation\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:28:27,786 INFO Outgoing file read: E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:29:17,988 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:29:25,749 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:29:31,081 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:29:39,475 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:29:42,087 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:29:42,087 WARNING df not defined; skipping analytics_summary export
+2026-01-06 13:29:42,270 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:29:42,598 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:29:42,599 INFO Export results:
+2026-01-06 13:29:42,599 INFO  filter_loe: E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:29:42,599 INFO  filter_outgoing: E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:29:42,599 INFO  matched_loe: E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:29:42,599 INFO  All_out: E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:29:42,599 INFO  investigation_report: E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:29:42,599 INFO  duplicates_loe: E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:29:42,599 INFO  duplicates_out: E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:33:09,464 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:33:28,117 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:33:33,371 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:33:42,272 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:33:45,633 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:33:45,650 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 13:33:45,841 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:33:46,148 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:33:46,149 INFO Export results:
+2026-01-06 13:33:46,149 INFO  filter_loe: E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:33:46,149 INFO  filter_outgoing: E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:33:46,149 INFO  matched_loe: E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:33:46,149 INFO  All_out: E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:33:46,149 INFO  investigation_report: E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:33:46,149 INFO  analytics_summary: E:\Automation\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 13:33:46,149 INFO  duplicates_loe: E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:33:46,149 INFO  duplicates_out: E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:34:10,712 INFO Configured paths: LOE_PATH=E:\Automation\Card_recon\original reports\LOE20250219.xlsx OUTGOING_PATH=E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx REPORT_DIR=E:\Automation\Card_recon\MC_\mc_reports LOG_FILE=e:\Automation\Card_recon\MC_\conversion.log
+2026-01-06 13:36:21,872 INFO LOE detected sheet "LOE20250219" header row 0
+2026-01-06 13:36:21,932 INFO LOE file read: E:\Automation\Card_recon\original reports\LOE20250219.xlsx
+2026-01-06 13:36:48,935 INFO Outgoing file read: E:\Automation\Card_recon\original reports\All Outgoing Transaction Details TWI_2025_02_20_080441.xlsx
+2026-01-06 13:37:40,994 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:37:52,590 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:38:02,471 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:38:11,017 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:38:13,531 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:38:13,547 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 13:38:13,735 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:38:14,002 INFO Saved E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-06 13:38:14,003 INFO Export results:
+2026-01-06 13:38:14,003 INFO  filter_loe: E:\Automation\Card_recon\MC_\mc_reports\filter_loe.xlsx
+2026-01-06 13:38:14,003 INFO  filter_outgoing: E:\Automation\Card_recon\MC_\mc_reports\filter_outgoing.xlsx
+2026-01-06 13:38:14,003 INFO  matched_loe: E:\Automation\Card_recon\MC_\mc_reports\matched_loe.xlsx
+2026-01-06 13:38:14,003 INFO  All_out: E:\Automation\Card_recon\MC_\mc_reports\All_out.xlsx
+2026-01-06 13:38:14,003 INFO  investigation_report: E:\Automation\Card_recon\MC_\mc_reports\Investigation_report.xlsx
+2026-01-06 13:38:14,003 INFO  analytics_summary: E:\Automation\Card_recon\MC_\mc_reports\analytics_summary.xlsx
+2026-01-06 13:38:14,003 INFO  duplicates_loe: E:\Automation\Card_recon\MC_\mc_reports\duplicates_loe.xlsx
+2026-01-06 13:38:14,003 INFO  duplicates_out: E:\Automation\Card_recon\MC_\mc_reports\duplicates_out.xlsx
+2026-01-13 13:04:32,486 | INFO | ===== Conversion started =====
+2026-01-13 13:04:32,538 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-00.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-00.txt
+2026-01-13 13:04:32,604 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-08.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-08.txt
+2026-01-13 13:04:32,652 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-11.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-11.txt
+2026-01-13 13:04:32,702 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.txt
+2026-01-13 13:04:33,097 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.001 -> E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.txt
+2026-01-13 13:04:33,100 | INFO | ===== Conversion finished =====

@@ -1,0 +1,16 @@
+REPORT EP-111C  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00              FILE SUMMARY BY CURRENCY CODE                           E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+ FILE    1 BATCH       62 TO      63                  USD/9 SETTLEMENT TO BE DETERMINED BY VISA                                      
+                                                                                                                                     
+                                                   ACCEPTED                        REJECTED                         TOTAL            
+                                             AMOUNT        COUNT             AMOUNT        COUNT             AMOUNT        COUNT     
+                                                                                                                                     
+ FINANCIAL TRANSACTIONS                                                                                                              
+  SALES DRAFTS                                                                                                                       
+   Reversals                                 820.38 DB         2               0.00            0             820.38 DB         2     
+                                                                                                                                     
+ TOTAL NET - FINANCIAL                       820.38 DB         2               0.00            0             820.38 DB         2     
+                                                                                                                                     
+ FILE TOTALS           TRANSACTIONS                            2        GROSS AMOUNT                         820.38                  

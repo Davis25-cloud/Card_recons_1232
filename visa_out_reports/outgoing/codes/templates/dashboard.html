@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automation Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-light">
+<div class="container mt-4">
+    <h2>📊 Automation Dashboard</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <!-- Run Button -->
+    <form id="run-form">
+        <button id="run-btn" class="btn btn-primary mb-3" type="button" onclick="startProcessing()">🚀 Run Automation Now</button>
+    </form>
+
+    <!-- Real-time Progress Bar -->
+    <div id="progress-section" class="mb-4 d-none">
+        <label><strong>Processing Progress</strong></label>
+        <div class="progress" style="height: 25px;">
+            <div id="progress-bar" class="progress-bar" style="width: 0%;">0%</div>
+        </div>
+    </div>
+
+    <!-- Processed Files -->
+    <h4>🗂 Recent Processed Files</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Filename</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Processed At</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in logs %}
+            <tr>
+                <td>{{ log.filename }}</td>
+                <td>{{ log.file_type }}</td>
+                <td>
+                    <span class="badge bg-{{ 'success' if log.status == 'Success' else 'danger' }}">
+                        {{ log.status }}
+                    </span>
+                </td>
+                <td>{{ log.processed_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Log Tail -->
+    <h4>📄 Log File (Last 20 lines)</h4>
+    <pre class="bg-dark text-light p-3" style="max-height: 300px; overflow-y: scroll;">
+{% for line in log_tail %}{{ line }}{% endfor %}
+    </pre>
+</div>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function startProcessing() {
+    document.getElementById('progress-section').classList.remove('d-none');
+    document.getElementById('run-btn').disabled = true;
+
+    fetch("/start-processing")
+        .then(() => {
+            pollProgress();
+        });
+}
+
+function pollProgress() {
+    fetch("/progress")
+        .then(res => res.json())
+        .then(data => {
+            const percent = data.total > 0 ? (data.current / data.total) * 100 : 0;
+            const bar = document.getElementById('progress-bar');
+            bar.style.width = percent + "%";
+            bar.textContent = `${data.status} (${data.current}/${data.total})`;
+
+            if (data.status !== "Done" && data.current < data.total) {
+                setTimeout(pollProgress, 1000);
+            } else {
+                document.getElementById('run-btn').disabled = false;
+                bar.classList.add("bg-success");
+                bar.textContent = "✅ Done";
+            }
+        });
+}
+</script>
+</body>
+</html>

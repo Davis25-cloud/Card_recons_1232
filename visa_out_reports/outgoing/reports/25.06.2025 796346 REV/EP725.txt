@@ -1,0 +1,42 @@
+REPORT EP-725   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00                  SALES DRAFT REVERSALS                               E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 430765                                               RUN NO    010
+                                                                                                                                     
+      Reversal, Sales Draft - First Presentment          ----     Required Data                                                      
+                                                                                                                                     
+ Acct Number & Extension   4388576119781733000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74407555176001091799562                 Usage Code                1                                       
+ Acquirer's Business ID    00440755                                Chargeback Reason Code    00                                      
+ Purchase Date             20250329                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  N                                       
+ Destination Currency Code                                         Authorization Code        05682D                                  
+ Source Amount             000000600000                            POS Terminal Capability   2                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             KIRIRI GARDEN HOTEL                     Collection-Only Flag                                              
+ Merchant City             BUJUMBURA                               POS Entry Mode                                                    
+ Merchant Country Code     BI                                      Central Processing Date   20250625                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00000                                                                                                     
+                                                                                                                                     
+      Reversal, Sales Draft - First Presentment          ----     Additional Data                                                    
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code 9                                       
+ Fee Program Indicator                                             Purchase Id Format                                                
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          00952702                                Purchase Identifier                                               
+ Terminal ID               D4001135                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+ TRANSACTION TOTAL RECORD COUNT                1                                                                                     

@@ -1,0 +1,19 @@
+REPORT EP-110B  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00            OUTGOING INTERCHANGE BATCH SUMMARY                        E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    011
+                                                                                                                                     
+             CURRENCY CODE         SALES DRAFTS              CREDIT VOUCHERS         CASH DISBURSEMENTS                 TOTAL        
+            / SETTLEMENT         AMOUNT    COUNT            AMOUNT    COUNT            AMOUNT    COUNT            AMOUNT    COUNT    
+                                                                                                                                     
+ FILE    1 BATCH      62 CENTER BATCH ID                                                                                             
+  FINANCIAL                                                                                                                          
+   Reversals    USD/9            820.38 DB     2              0.00        0              0.00        0            820.38 DB     2    
+  TOT FINANCIAL USD/9            820.38 DB     2              0.00        0              0.00        0            820.38 DB     2    
+ ACCEPTED              TRANSACTIONS            2                             GROSS AMOUNT  USD/9                  820.38             
+ BATCH TOTALS          TRANSACTIONS            2                             GROSS AMOUNT  USD/9                  820.38             
+                                                                                                                                     
+ FILE    1 BATCH      63                                                                                                             
+  VISA GENERATED TOTALS                                                                                                              
+   Edit Package Environmental                                                                                                 293    
+  TOTAL VISA GENERATED                                                                                              0.00      293    
+ BATCH TOTALS          TRANSACTIONS          293                             GROSS AMOUNT                           0.00             

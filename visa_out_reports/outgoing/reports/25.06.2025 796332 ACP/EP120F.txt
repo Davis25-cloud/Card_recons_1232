@@ -1,0 +1,21 @@
+REPORT EP-120F  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00              OUTGOING ITF SUMMARY BY VOLUME                          E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755 TO VIC                                        RUN NO    007
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                         ----------------------------------------  ACCEPTED  ----------------------------------------                
+                         FINANCIAL                  FINANCIAL   NON-FINANCIAL     TOTAL TRAN      BATCH        RECORD                
+                             COUNT                     AMOUNT           COUNT          COUNT      COUNT         COUNT                
+                                                                                                                                     
+                                                                                                                                     
+ E/P FILE ID :   440755020250625P070100                                                                                              
+                                                                                                                                     
+                                                                                                                                     
+         FILE    1         4,056               11,021,812.26             210          4,266         18        16,439                 
+                                                                                                                                     
+                                                                                                                                     
+         RUN     7         4,056               11,021,812.26             210          4,266         18        16,439                 
+                                                                                                                                     
+                                                                                                                                     
+ *** Note: Total lines reflect mixed currency amounts                                                                                

@@ -1,0 +1,23 @@
+REPORT EP-110C  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00            OUTGOING INTERCHANGE FILE SUMMARY                         E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+ FILE    1 BATCH       56 TO      57                                                                                                 
+                                                                                                                                     
+                             CURRENCY CODE              ACCEPTED                        REJECTED                         TOTAL       
+                              / SETTLEMENT        AMOUNT        COUNT             AMOUNT        COUNT             AMOUNT        COUNT
+                                                                                                                                     
+ FINANCIAL TRANSACTIONS                                                                                                              
+  SALES DRAFTS                                                                                                                       
+   Originals                    KES/9              50.00            1               0.00            0              50.00            1
+                                USD/9           5,577.49            9               0.00            0           5,577.49            9
+ TOTAL NET - FINANCIAL          ***             5,627.49           10               0.00            0           5,627.49           10
+                                                                                                                                     
+ VISA GENERATED TOTALS                                                                                                               
+  Edit Package Environmental                                                                                                      293
+ TOTAL VISA GENERATED                               0.00                            0.00                            0.00          293
+                                                                                                                                     
+                                                                                                                                     
+ FILE TOTALS                                TRANSACTIONS          303     GROSS AMOUNT     ***                  5,627.49             
+                                                                                                                                     
+ *** NOTE: TOTAL LINES REFLECT MIXED CURRENCY AMOUNTS                                                                                

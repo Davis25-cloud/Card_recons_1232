@@ -1,0 +1,8 @@
+REPORT EP-790   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00           UNFORMATTED TRANSACTION-BASED REPORT                       E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    013
+                                                                                                                                     
+                         ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+---10        
+                         9044075525176  0000       000         000000                                001                             
+                                                                                                                                     
+ TRANSACTION TOTAL RECORD COUNT                1                                                                                     

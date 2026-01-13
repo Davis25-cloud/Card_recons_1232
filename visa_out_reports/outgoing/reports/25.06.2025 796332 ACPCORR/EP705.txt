@@ -1,0 +1,962 @@
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4241091308900992000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091746797                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250624                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        571656                                  
+ Source Amount             000000005000                            POS Terminal Capability   5                                       
+ Source Currency Code      404                                     Cardholder ID Method      2                                       
+ Merchant Name             CYSUITES APARTMENT HOTE                 Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   B                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016023                                Purchase Identifier       1                                       
+ Terminal ID               44000885                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250623                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      2
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013023322581410576908545           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    385175323703895                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000010000                            Merchant Verification Val                                         
+ Auth Currency Cd          404                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           K53T                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                P                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000010000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      001                                     Term Verification Results 0080048000                              
+ Terminal Transaction Date 250624                                  Iss Appl Data, Byte 4-7   03A0A003                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000010000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      087B62CE                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  00E2                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                E3811333DB6113A0                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      3
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4738430050225218000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091753744                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250624                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        853563                                  
+ Source Amount             000000020000                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             SUNWORLD SAFARIS LTD                    Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    4722                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016026                                Purchase Identifier       2366                                    
+ Terminal ID               44000888                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250621                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      4
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010014624344302744605941232           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    465169463637313                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000700000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           7JHC                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                I                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000700000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      000                                     Term Verification Results 0080008800                              
+ Terminal Transaction Date 250618                                  Iss Appl Data, Byte 4-7   03A4A002                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000700000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8     0F                                      
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16  0300000500000000                        
+ Unpredictable Number      AA8C453A                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  0062                                    Iss Appl Data, Byte 17    00                                      
+ Appl Interchange Profile  3800                                    Iss Appl Data, Byte 18-32 000024686389                            
+ Cryptogram                692039FD900C6682                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      5
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4100390671928774000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091754890                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250623                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        24758C                                  
+ Source Amount             000000011385                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             NOVOTEL NAIROBI WESTLAN                 Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       515                                     
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250620                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      6
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013819339805338467180688           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    385172281055114                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000015000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           XXBK                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                C                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000015000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      003                                     Term Verification Results 8080008800                              
+ Terminal Transaction Date 250621                                  Iss Appl Data, Byte 4-7   03A02000                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000015000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      34249761                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  004F                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  1800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                4897294F8C4FC33E                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      7
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4485591003302696000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091761481                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250624                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        016642                                  
+ Source Amount             000000064629                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             KWETU CURIO                             Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       2203                                    
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250623                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      8
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013023291477102794068039           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    585172551602375                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000100000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           MFVH                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                S1                                      
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000100000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      002                                     Term Verification Results 8080008800                              
+ Terminal Transaction Date 250621                                  Iss Appl Data, Byte 4-7   03A08000                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000100000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      797F26DA                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  0085                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  1800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                424FE8B9F2671693                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      9
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4464402077861341000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091763388                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250623                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        030894                                  
+ Source Amount             000000040000                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      2                                       
+ Merchant Name             JM DEVELOPERS LIMITED                   Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       4574762401                              
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250618                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     10
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013820348586001403392978           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    385163732627255                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000040000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           J3S4                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                N                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000040000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      002                                     Term Verification Results 0080048800                              
+ Terminal Transaction Date 250612                                  Iss Appl Data, Byte 4-7   03A02013                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000040000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      D6ABD8F9                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  00DA                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                66032366B7F4BAE8                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     11
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4173595900281215000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091764824                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250624                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        564383                                  
+ Source Amount             000000006230                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             VILLA ROSA KEMPINSKI                    Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       815                                     
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250622                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     12
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010015823130539445407712663           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    465174519705238                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000010000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           VF6J                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                I                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000010000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      001                                     Term Verification Results 0080008000                              
+ Terminal Transaction Date 250623                                  Iss Appl Data, Byte 4-7   03A42002                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000010000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      0E8F75DC                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  06BC                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                8801691ABB3322FA                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     13
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4388540105907470000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091765078                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250623                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        07704D                                  
+ Source Amount             000000105000                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             ROSSLYN HOUSE LIMITED                   Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       410                                     
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250609                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     14
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013020016131480913654206           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    585167611639185                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000105000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           Z77J                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                D                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000105000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      001                                     Term Verification Results 0080008000                              
+ Terminal Transaction Date 250616                                  Iss Appl Data, Byte 4-7   03A0A002                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000105000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      5CC53C87                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  000F                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3800                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                9E8CB9C47B81DD65                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     02                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     15
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4198692471885747000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091771803                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250624                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        061125                                  
+ Source Amount             000000235000                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      2                                       
+ Merchant Name             JM DEVELOPERS LIMITED                   Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       1442564501                              
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250623                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     16
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010015824090790274560002113           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    465166645882027                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000235000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           9GJK                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                I                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000235000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      000                                     Term Verification Results 0080048800                              
+ Terminal Transaction Date 250615                                  Iss Appl Data, Byte 4-7   03A0A802                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000235000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      BE04F93F                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  037B                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3900                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                991BB572BBF68EDC                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     17
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4563530221517466000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091772074                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250623                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        774683                                  
+ Source Amount             000000050505                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             KWETU CURIO                             Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            05                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   B                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       48478                                   
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250622                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     18
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010014618286296667810181855           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    305167655728922                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000100000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           2K9W                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                F                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000100000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      005                                     Term Verification Results 0080008800                              
+ Terminal Transaction Date 250616                                  Iss Appl Data, Byte 4-7   03A42002                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000100000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      29653AEA                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  0091                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  3900                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                EF36CDC33180283A                        Form Factor Indicator                                             
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     19
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Required Data                                                                         
+                                                                                                                                     
+ Acct Number & Extension   4712134050804705000                     Merchant State/Prov. Code                                         
+ Floor Limit Indicator                                             Requested Payment Service                                         
+ CRB/Exception File Ind                                            Number of Payment Forms                                           
+ Acquirer Reference Nbr    74191955176001091784756                 Usage Code                1                                       
+ Acquirer's Business ID    10081199                                Chargeback Reason Code    00                                      
+ Purchase Date             20250623                                Settlement Flag           9                                       
+ Destination Amount        000000000000                            Auth Characteristics Ind  E                                       
+ Destination Currency Code                                         Authorization Code        022014                                  
+ Source Amount             000000025000                            POS Terminal Capability   5                                       
+ Source Currency Code      840                                     Cardholder ID Method      1                                       
+ Merchant Name             VILLA ROSA KEMPINSKI                    Collection-Only Flag                                              
+ Merchant City             NAIROBI                                 POS Entry Mode            07                                      
+ Merchant Country Code     KE                                      Central Processing Date   00000000                                
+ Merchant Category Code    7011                                    Reimbursement Attribute   0                                       
+ Merchant ZIP Code         00606                                                                                                     
+                                                                                                                                     
+      Sales Draft - Original          ----     Additional Data                                                                       
+                                                                                                                                     
+ Business Format Code                                              Conversion Date           00000000                                
+ Token Assurance Method                                            Additional Token Response                                         
+ Rate Table ID                                                     Reserved Data             0                                       
+ Scheme Identifier                                                 Acceptance Terminal Ind                                           
+ Reserved                  000000                                  Prepaid Card Indicator                                            
+ Documentation Indicator                                           Service Development Field                                         
+ Member Message Text                                               AVS Response Code                                                 
+ Special Condition Ind                                             Authorization Source Code V                                       
+ Fee Program Indicator                                             Purchase Id Format        4                                       
+ Issuer Charge                                                     Account Selection                                                 
+ PFX Applied Indicator                                             Installment Payment Count 00                                      
+ Card Acceptor ID          61016024                                Purchase Identifier       11719185                                
+ Terminal ID               44000886                                Cashback                  000000000                               
+ Nat'l Reimbursement Fee   000000000000                            Chip Condition Code                                               
+ Mail/Phn/Ecomm & Pymt Ind                                         POS Environment                                                   
+ Special Chargeback Ind                                                                                                              
+                                                                                                                                     
+      Sales Draft - Original          ----     Industry-Specific Data - Lodging                                                      
+                                                                                                                                     
+ Business Application ID                                           Total Tax                 000000000000                            
+ Business Format Code      LG                                      Prepaid Expenses          000000000000                            
+ Lodging No Show Ind       0                                       Food/Beverage Charges     000000000000                            
+ Lodging Extra Charges                                             Folio Cash Advances       000000000000                            
+ Lodging Check-in Date     20250622                                Room Nights               00                                      
+ Daily Room Rate           000000000000                            Total Room Tax            000000000000                            
+REPORT EP-705   OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE     20
+ SYSTEM DATE 25/06/25    RELEASE  4.00                       SALES DRAFTS                                   E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    008
+                                                                                                                                     
+      Sales Draft - Original          ----     Supplemental Financial Data                                                           
+                                                                                                                                     
+ Enabler Verification Val                                          Visa Internal Use Only                                            
+ Business Format Code      SD                                      SD Addl Transaction Fee 1 00000000                                
+ Network Identification Cd 0000                                    SD Addl Transaction Fee 2 00000000                                
+ Contact for Information                                           Total Discount Amount     0                                       
+ Adjustment Processing Ind                                         Surchrg Amt Card Currency 00000000                                
+ Message Reason Code                                               Money Transfer Frn Ex Fee 00000000                                
+ Surcharge Amount          00000000                                SD Payment Account Refere V0010013820058112455515270464           
+ Surcharge Credit/Dbt Ind  DB                                      Token Requestor ID        00000000000                             
+                                                                                                                                     
+      Sales Draft - Original          ----     Payment Service Data                                                                  
+                                                                                                                                     
+ Transaction Identifier    385173604225872                         ECommerce Goods Indicator                                         
+ Authorized Amount         000000024000                            Merchant Verification Val                                         
+ Auth Currency Cd          840                                     Interchange Fee Amount    000000000000000                         
+ Authorization Response Cd 00                                      Interchange Fee Sign                                              
+ Validation Code           QFLX                                    Src to Base Curr Ex Rate  0000000                                 
+ Excluded Trans ID Rsn                                             Base to Dest Curr Ex Rate 0000000                                 
+ CRS Processing Code                                               Optional Issuer ISA Amt   000000000000                            
+ Chargeback Rights Ind                                             Product Id                C                                       
+ Multiple Clearing Seq Nbr 00                                      Program ID                                                        
+ Multiple Clearing Seq Cnt 00                                      Dynamic Currency Conv Ind                                         
+ Market-Specific Auth Data H                                       Acct Type Identification                                          
+ Total Authorized Amount   000000025000                            Spend Qualified Indicator                                         
+ Information Indicator                                             PAN Token                 0000000000000000                        
+ Merchant Telephone Number 254706191729                            Account Funding Source    C                                       
+ Additional Data Indicator                                         CVV2 Result Code                                                  
+ Merchant Volume Indicator                                                                                                           
+                                                                                                                                     
+      Sales Draft - Original          ----     Chip Card Transaction Data                                                            
+                                                                                                                                     
+ Transaction Type          00                                      Iss Appl Data, Byte 3     12                                      
+ Card Sequence Number      003                                     Term Verification Results 0000000000                              
+ Terminal Transaction Date 250622                                  Iss Appl Data, Byte 4-7   03A00000                                
+ Terminal Capability Prof. E0F8C8                                  Cryptogram Amount         000000024000                            
+ Terminal Country Code     404                                     Iss Appl Data, Byte 8                                             
+ Terminal Serial Number                                            Iss Appl Data, Byte 9-16                                          
+ Unpredictable Number      7F000E14                                Iss Appl Data, Byte 1     06                                      
+ Appl Transaction Counter  0068                                    Iss Appl Data, Byte 17                                            
+ Appl Interchange Profile  0000                                    Iss Appl Data, Byte 18-32                                         
+ Cryptogram                23CDE41D2E5AD590                        Form Factor Indicator     20700000                                
+ Iss Appl Data, Byte 2     01                                      Issuer Script 1 Results                                           
+                                                                                                                                     
+ TRANSACTION TOTAL RECORD COUNT               10                                                                                     

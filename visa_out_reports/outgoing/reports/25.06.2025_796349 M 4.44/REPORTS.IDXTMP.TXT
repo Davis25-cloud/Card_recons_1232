@@ -1,0 +1,39 @@
+100A VALIDATION EXCEPTION DETAIL REPORT                              38               11        EP100A    
+100B VALIDATION EXCEPTION SUMMARY BY ACQ/ISS ID                      38               11        EP100B    
+100C VALIDATION EXCEPTION SUMMARY BY CENTER                          38               11        EP100C    
+110B OUTGOING INTERCHANGE BATCH SUMMARY                              19               11        EP110B   Y
+110C OUTGOING INTERCHANGE FILE SUMMARY                               20               11        EP110C   Y
+110E OUTGOING INTERCHANGE RUN SUMMARY                                20               11        EP110E   Y
+110F OUTGOING INTERCHANGE SUMMARY                                    15               11        EP110F   Y
+111C FILE SUMMARY BY CURRENCY CODE                                   16               11        EP111C   Y
+111E RUN SUMMARY BY CURRENCY CODE                                    18               11        EP111E   Y
+120F OUTGOING ITF SUMMARY BY VOLUME                                  18               11        EP120F   Y
+705  SALES DRAFTS                                                    24               11        EP705     
+706  CREDIT VOUCHERS                                                 24               11        EP706     
+707  CASH DISBURSEMENTS                                              24               11        EP707     
+710  FEE COLLECTIONS                                                 24               11        EP710     
+715  SALES DRAFT CHARGEBACKS                                         24               11        EP715     
+716  CREDIT VOUCHER CHARGEBACKS                                      24               11        EP716     
+717  CASH DISBURSEMENT CHARGEBACKS                                   24               11        EP717     
+720  FUNDS DISBURSEMENT                                              24               11        EP720     
+725  SALES DRAFT REVERSALS                                           42               11        EP725    Y
+726  CREDIT VOUCHER REVERSALS                                        24               11        EP726     
+727  CASH DISBURSEMENT REVERSALS                                     24               11        EP727     
+730  ICS PROCESSING                                                  24               11        EP730     
+732  NATIONAL MERCHANT ALERT SERVICE                                 24               11        EP732     
+735  SALES DRAFT CHARGEBACK REVERSALS                                24               11        EP735     
+736  CREDIT VOUCHER CHARGEBACK REVERSALS                             24               11        EP736     
+737  CASH DISBURSEMENT CHARGEBACK REVERSALS                          24               11        EP737     
+738  VISANET COPY REQUEST AND FULFILLMENT SERVICE MESSAGE            24               11        EP738     
+739  UNFORMATTED TRANSACTION-BASED REPORT                            24               11        EP739     
+740  FRAUD ADVICE                                                    24               11        EP740     
+750  TEXT MESSAGES                                                   24               11        EP750     
+752  REQUESTS FOR COPY                                               24               11        EP752     
+755  REGIONAL CARD RECOVERY FILE RECORDS - RCRF MESSAGE              24               11        EP755     
+756  CURRENCY CONVERSION RATES                                       24               11        EP756     
+757  DATA CAPTURE TRANSACTION ADVICE                                 24               11        EP757     
+758  NATIONAL SETTLEMENT ADVICES                                     24               11        EP758     
+759  INTERFACE TRANSACTION ADVICE                                    24               11        EP759     
+790  UNFORMATTED TRANSACTION-BASED REPORT                            8                11        EP790    Y
+791  UNFORMATTED TRANSACTION-BASED REPORT                            8                11        EP791    Y
+792  UNFORMATTED TRANSACTION-BASED REPORT                            8                11        EP792    Y

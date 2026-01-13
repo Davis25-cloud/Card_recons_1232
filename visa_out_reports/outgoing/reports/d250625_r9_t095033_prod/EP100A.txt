@@ -1,0 +1,55 @@
+REPORT EP-100A  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
+ SYSTEM DATE 25/06/25    RELEASE  4.00            VALIDATION EXCEPTION DETAIL REPORT                        E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    009
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+                                           TRANSACTION ERROR(S) FOUND - INTERCHANGE CREATED                                          
+REPORT EP-100A  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      2
+ SYSTEM DATE 25/06/25    RELEASE  4.00            VALIDATION EXCEPTION DETAIL REPORT                        E/P PROC. DATE   25/06/25
+ KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    009
+                                                                                                                                     
+                        RECORD   ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+---10
+ FILE            1                                                                                                                   
+ BATCH          58           2                                                                                                       
+                                                                                                                                     
+                                 25004388576119781733000   74407555176001091799562004407550329000000000000   000000600000840KIRIRI GA
+                                 RDEN HOTEL                   BI 701100000     1009N05682D2 1   00000                                
+ V0037 Merchant City must be                     *************                                                                       
+       present and not equal to                                                                                                      
+       space in first position                                                                                                       
+ V0581 Central Processing Date                                                                  ****                                 
+       is not a valid date                                                                                                           
+                                 2501            000000                                                          00952702       D4001
+                                 135000000000000  0000      9                             000000000                                  
