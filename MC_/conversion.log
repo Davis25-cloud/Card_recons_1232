@@ -135,3 +135,10 @@ KeyError: "Missing LOE columns: ['Date', 'DocNo', 'Debit External', 'Credit Exte
 2026-01-13 13:04:32,702 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.txt
 2026-01-13 13:04:33,097 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.001 -> E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.txt
 2026-01-13 13:04:33,100 | INFO | ===== Conversion finished =====
+2026-01-14 07:54:08,950 | INFO | ===== Conversion started =====
+2026-01-14 07:54:09,004 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-00.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-00.txt
+2026-01-14 07:54:09,068 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-08.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-08.txt
+2026-01-14 07:54:09,120 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-11.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-52-11.txt
+2026-01-14 07:54:09,158 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.001 -> E:\\Automation\\Card_recon\\original reports\TT140T0.2025-02-20-17-58-43.txt
+2026-01-14 07:54:09,336 | INFO | Converted: E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.001 -> E:\\Automation\\Card_recon\\original reports\TT461T0.2025-02-20-20-07-20.txt
+2026-01-14 07:54:09,337 | INFO | ===== Conversion finished =====
