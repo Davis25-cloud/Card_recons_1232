@@ -1,13 +1,0 @@
-REPORT EP-100C  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
- SYSTEM DATE 25/06/25    RELEASE  4.00          VALIDATION EXCEPTION SUMMARY BY CENTER                      E/P PROC. DATE   25/06/25
- KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    007
-                                                                                                                                     
-   REJECT                                                                                   TRAN CURR                            TRAN
-   REASON DESCRIPTION                                                                       CODE CODE   TRANSACTION AMOUNT      COUNT
-                                                                                                                                     
-   V0268  Lodging No Show Ind must be equal to 0 or 1                                        05   KES                50.00          1
-                                                                                             05   USD             5,577.49          9
-                                                                                                                                     
- TOTAL REJECTED ITEMS                                           10                                                                   
- TOTAL REJECTED ITEMS AMOUNT   USD                        5,577.49                                                                   
-                               KES                           50.00                                                                   

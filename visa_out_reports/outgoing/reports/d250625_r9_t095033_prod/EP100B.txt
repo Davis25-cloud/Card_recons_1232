@@ -1,13 +1,0 @@
-REPORT EP-100B  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
- SYSTEM DATE 25/06/25    RELEASE  4.00        VALIDATION EXCEPTION SUMMARY BY ACQ/ISS ID                    E/P PROC. DATE   25/06/25
- KENYA COMMERCIAL BANK                                      A/I ID 440755                                               RUN NO    009
-                                                                                                                                     
-   REJECT                                                                                   TRAN CURR                            TRAN
-   REASON DESCRIPTION                                                                       CODE CODE   TRANSACTION AMOUNT      COUNT
-                                                                                                                                     
-   V0037  Merchant City must be present and not equal to space in first position             25   USD             6,000.00          1
-                                                                                                                                     
-   V0581  Central Processing Date is not a valid date                                        25   USD             6,000.00          1
-                                                                                                                                     
- TOTAL REJECTED ITEMS                                            1                                                                   
- TOTAL REJECTED ITEMS AMOUNT   USD                        6,000.00                                                                   

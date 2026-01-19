@@ -1,18 +1,0 @@
-REPORT EP-120F  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
- SYSTEM DATE 25/06/25    RELEASE  4.00              OUTGOING ITF SUMMARY BY VOLUME                          E/P PROC. DATE   25/06/25
- KENYA COMMERCIAL BANK                                      CENTER 440755 TO VIC                                        RUN NO    010
-                                                                                                                                     
-                                                                                                                                     
-                                                                                                                                     
-                         ----------------------------------------  ACCEPTED  ----------------------------------------                
-                         FINANCIAL                  FINANCIAL   NON-FINANCIAL     TOTAL TRAN      BATCH        RECORD                
-                             COUNT                     AMOUNT           COUNT          COUNT      COUNT         COUNT                
-                                                                                                                                     
-                                                                                                                                     
- E/P FILE ID :   440755020250625P100100                                                                                              
-                                                                                                                                     
-                                                                                                                                     
-         FILE    1             1                    6,000.00             296            297          2           298                 
-                                                                                                                                     
-                                                                                                                                     
-         RUN    10             1                    6,000.00             296            297          2           298                 

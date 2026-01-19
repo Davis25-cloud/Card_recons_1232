@@ -1,6 +1,0 @@
-pandas
-mysql-connector-python
-watchdog
-pdfplumber
-openpyxl
-flask

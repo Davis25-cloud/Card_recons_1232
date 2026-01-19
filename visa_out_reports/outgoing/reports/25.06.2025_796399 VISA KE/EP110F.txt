@@ -1,15 +1,0 @@
-REPORT EP-110F  OUTGOING INTERCHANGE                    VISANET EDIT PACKAGE                                             PAGE      1
- SYSTEM DATE 25/06/25    RELEASE  4.00               OUTGOING INTERCHANGE SUMMARY                           E/P PROC. DATE   25/06/25
- KENYA COMMERCIAL BANK                                      CENTER 440755                                               RUN NO    013
-                                                                                                                                     
-                   -------------------  ACCEPTED  -------------------    -------------------  REJECTED  -------------------          
-                FINANCIAL OR             FINANCIAL OR   NON-FINANCIAL  FINANCIAL OR           FINANCIAL OR    NON-FINANCIAL DUPLICATE
-              COLLECTION-ONLY          COLLECTION-ONLY      COUNT     COLLECTION-ONLY        COLLECTION-ONLY       COUNT     WARNING 
-                     COUNT                     AMOUNT                      COUNT                     AMOUNT                          
-                                                                                                                                     
- BATCH      66            12                  2,752.70              0            0                      0.00              0          
-            67             0                      0.00            191            0                      0.00              0          
-                                                                                                                                     
- FILE        1            12                  2,752.70            191            0                      0.00              0          
-                                                                                                                                     
- RUN        13            12                  2,752.70            191            0                      0.00              0          
